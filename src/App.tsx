@@ -41,9 +41,7 @@ export function App() {
     <>
       <Header />
       <div className={styles.wrapper}>
-        <SideBar>
-          sidebar
-        </SideBar>
+        <SideBar />
         <main>
           {posts.map((post) =>
             <Post 
